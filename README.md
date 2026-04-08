@@ -6,6 +6,29 @@ Herzlich Willkommen zum Programmierpraktikum Neurotechnologie der TU Berlin im S
 ### Überblick
 In diesem Praktikum entwickeln Sie im Team Methoden zur Analyse und Klassifikation neuronaler Daten, um Fragestellungen aus den Bereichen Brain-Computer Interfacing, klinischer Diagnostik oder Neuromodulation zu bearbeiten. Zu Beginn werden grundlegende Konzepte der Neurowissenschaften, der Signalverarbeitung und des maschinellen Lernens vermittelt. Im praktischen Teil entwickeln Sie eine Analysepipeline, die Schritte wie Datenvorverarbeitung, Feature-Extraktion und Klassifikation umfasst. Dabei trainieren und evaluieren Sie Machine Learning Modelle, um Muster in neuronalen Daten zu erkennen und zu interpretieren.
 
+
+### Setup
+Um die benötigte Python-Umgebung einzurichten, benötigen Sie [Anaconda](https://www.anaconda.com/download) oder [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+
+1. Repository klonen:
+   ```bash
+   git clone <repo-url>
+   cd neuropr-ss26
+   ```
+
+2. Umgebung erstellen und aktivieren:
+   ```bash
+   conda env create -f environment.yml
+   conda activate neuropr-ss26
+   ```
+
+3. Jupyter starten:
+   ```bash
+   jupyter notebook
+   ```
+
+**VS Code:** Alternativ können Sie VS Code mit der [Jupyter-Erweiterung](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) verwenden. Nach dem Aktivieren der Umgebung erscheint `neuropr-ss26` als Kernel-Option in jedem `.ipynb` Notebook.
+
 ### Einführungswochen
 1. Meeting
 
@@ -16,6 +39,8 @@ In diesem Praktikum entwickeln Sie im Team Methoden zur Analyse und Klassifikati
 4. Meeting
 
 ### Projektteil
-#### Team A
-#### Team B
-#### Team C
+- Team A
+
+- Team B
+
+- Team C
